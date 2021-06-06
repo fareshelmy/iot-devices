@@ -18,7 +18,9 @@
 --
 -- Table structure for table `device`
 --
-
+DROP SCHEMA IF EXISTS `iot_device`;
+CREATE SCHEMA `iot_device`;
+USE `iot_device`;
 DROP TABLE IF EXISTS `device`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
  SET character_set_client = utf8mb4 ;
